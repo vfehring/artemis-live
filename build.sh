@@ -1,5 +1,8 @@
 #!/bin/bash
+# Automatically cleanup previous builds.
+./cleanup*
 
+# Set airootfs owner and group to root
 sudo chown -R root airootfs/
 sudo chgrp -R root airootfs/
 
